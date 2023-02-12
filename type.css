@@ -80,6 +80,11 @@ nav ul ul li{
     display:none;
 }
 @media all and (max-width: 635px){
+    .title{
+        padding-left:100px;
+        padding-top:none;
+
+    }
     html,body{
         width:100%;
         height:100%;
@@ -151,7 +156,6 @@ nav ul ul li{
     .text .clr{
         color:#ff0303;
         font-weight:600;
-
     }
     .dash{
         display:none;        
@@ -159,6 +163,7 @@ nav ul ul li{
     .dash1{
         display:contents;
     }
+    
 }
 
 .title{
@@ -215,7 +220,6 @@ html,body{
     margin-left: 200px;
     margin-right: 600px;
     padding-top: 60px;
-    padding-right: ;
 }
 .pic img:hover{
     transform: scale(1.1);
@@ -230,4 +234,9 @@ html{
     display:block;
     overflow:hidden;
     transition:transform 1s;
+}
+.about h2{
+    padding-left: 30px;
+    font-size: xx-large;
+    font-size:40;
 }
