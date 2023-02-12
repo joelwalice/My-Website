@@ -80,10 +80,17 @@ nav ul ul li{
     display:none;
 }
 @media all and (max-width: 635px){
-    .title{
-        padding-left:100px;
+    .title h1{
+        padding-right:20px;
+        padding-top:20px;
         padding-top:none;
-
+        display:contents;
+    }
+    .pic{
+        display:contents;
+        width:100%;
+        height:auto;
+        padding: 0%;
     }
     html,body{
         width:100%;
@@ -169,7 +176,7 @@ nav ul ul li{
 .title{
     margin-left: 8px;
     font-weight: 600;
-    font-size:60;
+    font-size:30;
     padding-top: 180px;
     float:right;
     padding-right: 130px;
@@ -180,8 +187,8 @@ nav ul ul li{
     position:relative;
     text-align: center;
     font-weight: 300;
-    font-size: 20;
-    padding-right: 50px;
+    font-size: 28;
+    padding-right: 100px;
 }
 .text .clr{
     color:#ff0303;
@@ -239,4 +246,7 @@ html{
     padding-left: 30px;
     font-size: xx-large;
     font-size:40;
+}
+.pic1{
+    display:none;
 }
