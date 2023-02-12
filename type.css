@@ -80,12 +80,6 @@ nav ul ul li{
     display:none;
 }
 @media all and (max-width: 635px){
-    .title h1{
-        padding-right:20px;
-        padding-top:20px;
-        padding-top:none;
-        display:contents;
-    }
     .pic{
         display:contents;
         width:100%;
