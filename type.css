@@ -1,20 +1,22 @@
 nav{
     background-color: #1f1f1f;
 }
-nav .logo{
+nav .logo a {
     color:rgb(255, 255, 255);
     float:left;
     font-size: 27px;
-    font-weight:800;
+    font-weight:500;
     line-height: 70px;
     padding-left: 15px;
+    text-decoration: none;
 }
+
 *{
     color: white;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: poppins;
 }
 nav:after{
     content: " ";
@@ -29,7 +31,7 @@ nav ul{
 
 }
 nav ul li{
-    float: left;
+    
     display: inline-block;
     background-color:#1f1f1f;
     margin:0 5px;
@@ -79,13 +81,55 @@ nav ul ul li{
 .show,.icon, input{
     display:none;
 }
-@media all and (max-width: 635px){
-    .pic{
-        display:contents;
-        width:100%;
-        height:auto;
-        padding: 0%;
-    }
+
+.title{
+    margin-left: 8px;
+    font-weight: 600;
+    font-size:30;
+    float:right;
+    padding-right: 130px;
+}
+.text{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28;
+    margin-right: 200px;
+}
+.text .clr{
+    color:#ff0303;
+    font-weight:600;
+}
+.body{
+    float:right;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+.body .dash{
+    color:red;
+    background-color: #201d1d;
+}
+.dash{
+    color:red;
+    background-color: #201d1d;
+}
+
+.dash1{
+    display:none;
+}
+
+html{
+    background-color:#201d1d;
+}
+
+@media all and (max-width: 745px){
     html,body{
         width:100%;
         height:100%;
@@ -165,82 +209,4 @@ nav ul ul li{
         display:contents;
     }
     
-}
-
-.title{
-    margin-left: 8px;
-    font-weight: 600;
-    font-size:30;
-    padding-top: 180px;
-    float:right;
-    padding-right: 130px;
-    
-}
-.text{
-    padding-top: 300px;
-    position:relative;
-    text-align: center;
-    font-weight: 300;
-    font-size: 28;
-    padding-right: 100px;
-}
-.text .clr{
-    color:#ff0303;
-    font-weight:600;
-}
-.body{
-    float:right;
-}
-
-html,body{
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-    overflow-x: hidden;
-}
-.body .dash{
-    color:red;
-    background-color: #201d1d;
-}
-.dash{
-    color:red;
-    background-color: #201d1d;
-}
-.para h1{
-    color:rgb(250, 249, 249);
-    font-size: 40px;
-    text-shadow: 0 0 3px #ff0303, 0 0 5px rgb(245, 0, 0);
-    padding-left: 10px;
-
-}
-.dash1{
-    display:none;
-}
-.pic{
-    margin-left: 200px;
-    margin-right: 600px;
-    padding-top: 60px;
-}
-.pic img:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 10px red,
-                0 0 10px crimson;
-}
-html{
-    background-color:#201d1d;
-}
-.pic img{
-    border-radius: 38px;
-    display:block;
-    overflow:hidden;
-    transition:transform 1s;
-}
-.about h2{
-    padding-left: 30px;
-    font-size: xx-large;
-    font-size:40;
-}
-.pic1{
-    display:none;
 }
